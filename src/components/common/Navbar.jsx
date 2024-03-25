@@ -2,7 +2,7 @@ import React from 'react'
 import { IoMail } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
 import { PATHS } from '../../utils/paths';
-
+import { FaCode } from "react-icons/fa6";
 
 
 const Navbar = () => {
@@ -15,27 +15,22 @@ const Navbar = () => {
                 "
         >
             <NavLink to={PATHS.HOME} className='nav-title text-white font-sans font-medium'>
-                PMD
+                <FaCode className='text-orange-600' size={32} />
             </NavLink>
             <div className='flex gap-6'>
-                <NavLink to={PATHS.HOME} className='text-[#c1c0c0] hover:text-white cursor-pointer'>
+                <NavLink to={PATHS.HOME} className='text-gray-400 hover:text-white cursor-pointer'>
                     Home
                 </NavLink>
-                <NavLink to={PATHS.ABOUT} className='text-[#c1c0c0] hover:text-white  cursor-pointer'>
+                <div className='text-gray-400'>|</div>
+                <NavLink to={PATHS.ABOUT} className='text-gray-400 hover:text-white  cursor-pointer'>
                     About
                 </NavLink>
-                <NavLink to={PATHS.PROJECTS} className='text-[#c1c0c0] hover:text-white  cursor-pointer'>
+                <div className='text-gray-400'>|</div>
+                <NavLink to={PATHS.PROJECTS} className='text-gray-400 hover:text-white  cursor-pointer'>
                     Projects
                 </NavLink>
             </div>
-            <div className='text-white flex items-center gap-2'>
-                <div className='h-10 w-10 bg-orange-600 rounded-[25px] flex justify-center items-center'>
-                    <IoMail size={24} />
-                </div>
-                <div className='text-xs'>
-                    pushkar2912@gmail.com
-                </div>
-            </div>
+            <NavLink to={PATHS.CONTACT} className='text-gray-400 hover:text-white'>Get In Touch</NavLink>
         </div>
 
     )

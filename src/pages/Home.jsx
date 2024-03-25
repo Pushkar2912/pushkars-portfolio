@@ -12,9 +12,9 @@ const Home = () => {
                     <div className='text-white text-xl  flex flex-col justify-center gap-4'>
                         <div className='flex flex-col'>
                             <p className='text-heading text-4xl'>Hi there, I am</p>
-                            <p className='text-heading text-4xl text-orange-400'> Pushkar Deshpande.</p><br />
+                            <p className='text-heading text-4xl text-orange-600'> Pushkar Deshpande.</p><br />
                         </div>
-                        <p className='text-slate-400'>Highly motivated and results-oriented <span className='text-heading text-orange-400' >Front-End Developer</span><br/>
+                        <p className='text-slate-400'>Highly motivated and results-oriented <span className='text-heading text-orange-600' >Front-End Developer</span><br/>
                             with  experience building user-friendly and interactive web applications.<br />
                             Proven ability to leverage a wide range of technologies and passionate about creating innovative solutions that enhance user experience
                         </p>
