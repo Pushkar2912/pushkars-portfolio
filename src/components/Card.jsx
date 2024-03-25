@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = ({ title, college, completed, marks }) => {
     return (
-        <div className='container border p-2 rounded-md'>
+        <div className='flex  flex-col gap-2 container border border-gray-500 p-4 rounded-md'>
             <div className='flex justify-between'>
                 <div className='title text-white font-semibold'>
                     {title}
