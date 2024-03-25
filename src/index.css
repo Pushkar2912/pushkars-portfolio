@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.projects-containar{
+  max-height: calc(100vh -89);
+  max-width: calc(100vw - 88.3);
+  overflow: hidden;
+}
+
