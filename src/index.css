@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+.text-heading{
+  font-family: "Sora", sans-serif !important;
+}
 .projects-containar{
-  max-height: calc(100vh -89);
+  min-height: calc(100vh -89);
   max-width: calc(100vw - 88.3);
   overflow: hidden;
 }

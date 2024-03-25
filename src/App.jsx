@@ -9,8 +9,8 @@ import Contacts from './pages/Contacts'
 
 const App = () => {
   return (
-    <div className='bg-gray-800 h-[100vh] flex'>
-      <div className='app-container-left w-[10%] border-r'>
+    <div className='bg-gray-800  min-h-[100vh] flex'>
+      <div className='app-container-left w-[10%] border-r border-gray-500'>
         
       </div>
       <div className='app-cotainer-right flex-1'>
