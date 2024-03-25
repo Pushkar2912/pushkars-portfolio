@@ -30,12 +30,6 @@ const Projects = () => {
                     Technologies: React, Firebase<br />
                 
             </Project>
-            <Project title={"Skill Assist"} subTitle={"Hobby Project"} linkTitle={"Go to Skill Assist"} link={"https://github.com/anirudha4/skill-assist"}>
-               
-                    A social platform for freelancers to create stores to showcase their skills, share their profiles with their customers and make new customers.<br />
-                    Technologies: React, Firebase<br />
-                
-            </Project>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = ({ title, college, completed, marks }) => {
     return (
-        <div className='container border p-2'>
+        <div className='container border p-2 rounded-md'>
             <div className='flex justify-between'>
                 <div className='title text-white font-semibold'>
                     {title}
@@ -12,10 +12,10 @@ const Card = ({ title, college, completed, marks }) => {
                     {marks}
                 </div>
             </div>
-            <div className='completed text-white text-xs'>
+            <div className='completed text-slate-400 text-xs'>
                 {completed}
             </div>
-            <div className='text-white text-sm'>
+            <div className='text-slate-400 text-sm'>
                 {college}
             </div>
         </div>

@@ -13,3 +13,7 @@
   overflow: hidden;
 }
 
+.app-lower-containar{
+  max-height: calc(100vh - 180px);
+}
+
