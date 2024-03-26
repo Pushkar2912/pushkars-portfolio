@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
-import PushkarImg from '../assets/pushkar.png'
+import PushkarImg from '../assets/pushkar1.jpg'
 import { Link } from 'react-router-dom';
 import { PATHS } from '../utils/paths';
 
@@ -24,10 +24,10 @@ const Home = () => {
                     Projects <BsArrowRight className='group-hover:ml-2 transition-all' size={20} />
                 </Link>
             </div>
-            <div className='relative mr-5 group'>
+            {/* <div className='relative mr-5 group'>
                 <img className='h-[500px] rounded-md z-10 relative' src={PushkarImg} />
                 <div className='absolute group-hover:top-3 group-hover:-right-3 transition-all top-5 -right-5 w-full h-full bg-gray-900 rounded-md'></div>
-            </div>
+            </div> */}
 
 
         </div>
