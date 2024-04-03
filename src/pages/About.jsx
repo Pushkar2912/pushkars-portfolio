@@ -8,7 +8,7 @@ const About = () => {
                 <div className='text-2xl text-heading text-white font-medium'>
                     Education
                 </div>
-                <div className='flex gap-10'>
+                <div className='sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 grid gap-10 '>
                     <Card title={`10th`} college={"Day Care Center"} completed={"2015"} marks={"86%"} />
                     <Card title={"Diploma"} college={"K.K.Wagh Polytechnic"} completed={"2018"} marks={"73.41%"} />
                     <Card title={"BEIT"} college={"Sandip Institute Of Technology And Research Center"} completed={"2021"} marks={"8.00 CGPA"} />
