@@ -6,6 +6,7 @@ import { PATHS } from './utils/paths'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
+import NavbarSm from './components/common/NavbarSm'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         
       </div>
       <div className='app-cotainer-right flex-1'>
+        <NavbarSm />
         <Navbar / >
         <Routes>
         <Route path={PATHS.HOME} element={<Home />} />
